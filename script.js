@@ -48,7 +48,7 @@ document.querySelector('#main').addEventListener('click', () => {
             // Fade in the new image
             gsap.fromTo(imageElement, 
                 { opacity: 0, scale: 0, x: 0, y: 0, rotation: 0 }, 
-                { opacity: 1, scale: 1, x: 0, y: 0, rotation: 360, duration: 1 }
+                { opacity: 1, scale: 1, x: 0, y: 0, rotation: -360, duration: 1 }
             );
             
         }
